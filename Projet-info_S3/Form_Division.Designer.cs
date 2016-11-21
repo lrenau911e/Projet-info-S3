@@ -28,11 +28,99 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.label_Titre = new System.Windows.Forms.Label();
+            this.label_Operateur = new System.Windows.Forms.Label();
+            this.button_Ok = new System.Windows.Forms.Button();
+            this.label_Resultat = new System.Windows.Forms.Label();
+            this.textBox_Resultat = new System.Windows.Forms.TextBox();
+            this.textBox_Operande2 = new System.Windows.Forms.TextBox();
+            this.textBox_Operande1 = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // label_Titre
+            // 
+            this.label_Titre.AutoSize = true;
+            this.label_Titre.Location = new System.Drawing.Point(17, 11);
+            this.label_Titre.Name = "label_Titre";
+            this.label_Titre.Size = new System.Drawing.Size(44, 13);
+            this.label_Titre.TabIndex = 13;
+            this.label_Titre.Text = "Division";
+            // 
+            // label_Operateur
+            // 
+            this.label_Operateur.AutoSize = true;
+            this.label_Operateur.Location = new System.Drawing.Point(12, 93);
+            this.label_Operateur.Name = "label_Operateur";
+            this.label_Operateur.Size = new System.Drawing.Size(12, 13);
+            this.label_Operateur.TabIndex = 12;
+            this.label_Operateur.Text = "/";
+            // 
+            // button_Ok
+            // 
+            this.button_Ok.Location = new System.Drawing.Point(197, 229);
+            this.button_Ok.Name = "button_Ok";
+            this.button_Ok.Size = new System.Drawing.Size(75, 23);
+            this.button_Ok.TabIndex = 11;
+            this.button_Ok.Text = "Ok";
+            this.button_Ok.UseVisualStyleBackColor = true;
+            // 
+            // label_Resultat
+            // 
+            this.label_Resultat.AutoSize = true;
+            this.label_Resultat.Location = new System.Drawing.Point(12, 179);
+            this.label_Resultat.Name = "label_Resultat";
+            this.label_Resultat.Size = new System.Drawing.Size(153, 13);
+            this.label_Resultat.TabIndex = 10;
+            this.label_Resultat.Text = "Veuillez taper votre résultat ici :";
+            // 
+            // textBox_Resultat
+            // 
+            this.textBox_Resultat.Location = new System.Drawing.Point(15, 195);
+            this.textBox_Resultat.Name = "textBox_Resultat";
+            this.textBox_Resultat.Size = new System.Drawing.Size(202, 20);
+            this.textBox_Resultat.TabIndex = 9;
+            // 
+            // textBox_Operande2
+            // 
+            this.textBox_Operande2.Location = new System.Drawing.Point(15, 115);
+            this.textBox_Operande2.Name = "textBox_Operande2";
+            this.textBox_Operande2.Size = new System.Drawing.Size(135, 20);
+            this.textBox_Operande2.TabIndex = 8;
+            // 
+            // textBox_Operande1
+            // 
+            this.textBox_Operande1.Location = new System.Drawing.Point(13, 66);
+            this.textBox_Operande1.Name = "textBox_Operande1";
+            this.textBox_Operande1.Size = new System.Drawing.Size(135, 20);
+            this.textBox_Operande1.TabIndex = 7;
+            // 
+            // Form_Division
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.label_Titre);
+            this.Controls.Add(this.label_Operateur);
+            this.Controls.Add(this.button_Ok);
+            this.Controls.Add(this.label_Resultat);
+            this.Controls.Add(this.textBox_Resultat);
+            this.Controls.Add(this.textBox_Operande2);
+            this.Controls.Add(this.textBox_Operande1);
+            this.Name = "Form_Division";
             this.Text = "Form_Division";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label_Titre;
+        private System.Windows.Forms.Label label_Operateur;
+        private System.Windows.Forms.Button button_Ok;
+        private System.Windows.Forms.Label label_Resultat;
+        private System.Windows.Forms.TextBox textBox_Resultat;
+        private System.Windows.Forms.TextBox textBox_Operande2;
+        private System.Windows.Forms.TextBox textBox_Operande1;
     }
 }
