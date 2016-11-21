@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Projet_info_S3
 {
-    public partial class Attention_et_concentration : Form
+    public partial class Attention_et_Concentration : Form
     {
-        public Attention_et_concentration()
+        public Attention_et_Concentration()
         {
             InitializeComponent();
         }

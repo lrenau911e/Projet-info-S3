@@ -1,6 +1,6 @@
 ﻿namespace Projet_info_S3
 {
-    partial class Attention_et_concentration
+    partial class Attention_et_Concentration
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Attention_et_concentration";
+            this.Text = "Attention_et_Concentration";
         }
 
         #endregion
