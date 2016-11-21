@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a9386d83-4f9b-4c8b-b341-6e1378fb2c77</ProjectGuid>
+    <ProjectGuid>{FAA185EE-AB4C-4B72-AD04-AB2DE24B068B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Problemes_mathematiques</RootNamespace>

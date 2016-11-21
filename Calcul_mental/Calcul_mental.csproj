@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>79bc41ce-c02c-46ae-961a-c9cf07172647</ProjectGuid>
+    <ProjectGuid>{6B3135DE-3B29-4871-BFC4-86B954090117}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Calcul_mental</RootNamespace>

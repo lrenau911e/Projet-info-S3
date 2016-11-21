@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>c72e3ca4-4383-4b36-b0e0-6516debf7a5d</ProjectGuid>
+    <ProjectGuid>{903841EB-C45F-4A03-BADF-98FEF286D331}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Perception_et_memoire_associative</RootNamespace>
