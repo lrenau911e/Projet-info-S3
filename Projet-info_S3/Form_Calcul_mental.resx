@@ -117,10 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>Règles : 
-Appuyer sur le boutton 1 si deux objets consécutifs ont la même couleur.
-Appuyer sur le boutton 2 si deux objets consécutifs ont le même nombre de points.
-Appuyer sur le boutton 3 dans tous les autres cas.</value>
-  </data>
 </root>
