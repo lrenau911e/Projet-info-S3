@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AC_ecran1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AC_ecran1.Designer.cs">
+      <DependentUpon>AC_ecran1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AC_ecran2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AC_ecran2.Designer.cs">
+      <DependentUpon>AC_ecran2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AC_ecran3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AC_ecran3.Designer.cs">
+      <DependentUpon>AC_ecran3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AC_ecran4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AC_ecran4.Designer.cs">
+      <DependentUpon>AC_ecran4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AC_ecran5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AC_ecran5.Designer.cs">
+      <DependentUpon>AC_ecran5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Attention_et_concentration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +138,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AC_ecran1.resx">
+      <DependentUpon>AC_ecran1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AC_ecran2.resx">
+      <DependentUpon>AC_ecran2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AC_ecran3.resx">
+      <DependentUpon>AC_ecran3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AC_ecran4.resx">
+      <DependentUpon>AC_ecran4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AC_ecran5.resx">
+      <DependentUpon>AC_ecran5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Addition.resx">
       <DependentUpon>Form_Addition.cs</DependentUpon>
     </EmbeddedResource>
