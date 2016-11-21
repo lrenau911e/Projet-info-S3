@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attention_et_concentration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attention_et_concentration.Designer.cs">
+      <DependentUpon>Attention_et_concentration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Addition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Addition.Designer.cs">
+      <DependentUpon>Form_Addition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Division.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Division.Designer.cs">
+      <DependentUpon>Form_Division.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +75,12 @@
     </Compile>
     <Compile Include="Form_Calcul_mental.Designer.cs">
       <DependentUpon>Form_Calcul_mental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Multiplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Multiplication.Designer.cs">
+      <DependentUpon>Form_Multiplication.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Perception_et_memoire_associative.cs">
       <SubType>Form</SubType>
@@ -70,8 +94,23 @@
     <Compile Include="Form_Problemes_mathematiques.Designer.cs">
       <DependentUpon>Form_Problemes_mathematiques.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Soustraction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Soustraction.Designer.cs">
+      <DependentUpon>Form_Soustraction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Problemes_Physiques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Problemes_Physiques.Designer.cs">
+      <DependentUpon>Problemes_Physiques.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Calcul_mental.resx">
+      <DependentUpon>Form_Calcul_mental.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

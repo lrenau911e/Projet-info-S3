@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace Projet_info_S3
 {
-    public partial class Form_Calcul_mental : Form
+    public partial class Form_Division : Form
     {
-        public Form_Calcul_mental()
+        public Form_Division()
         {
             InitializeComponent();
-        }
-
-        private void button_Addiction_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
