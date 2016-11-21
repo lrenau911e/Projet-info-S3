@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Projet_info_S3
 {
-    public partial class Form1 : Form
+    public partial class Form_Menu_principal : Form
     {
-        public Form1()
+        public Form_Menu_principal()
         {
             InitializeComponent();
         }
