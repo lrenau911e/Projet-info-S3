@@ -15,5 +15,10 @@ namespace Projet_info_S3
         {
             InitializeComponent();
         }
+
+        private void ovalShape1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
