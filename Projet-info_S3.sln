@@ -1,12 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcul_mental", "Calcul_mental\Calcul_mental.csproj", "{6B3135DE-3B29-4871-BFC4-86B954090117}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problemes_mathematiques", "Problemes_mathematiques\Problemes_mathematiques.csproj", "{FAA185EE-AB4C-4B72-AD04-AB2DE24B068B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perception_et_memoire_associative", "Perception_et_memoire_associative\Perception_et_memoire_associative.csproj", "{903841EB-C45F-4A03-BADF-98FEF286D331}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projet-info_S3", "Projet-info_S3\Projet-info_S3.csproj", "{B52D7C1D-4CC1-4DA0-B872-86B7404F527F}"
 EndProject
 Global
@@ -15,18 +9,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6B3135DE-3B29-4871-BFC4-86B954090117}.Debug|x86.ActiveCfg = Debug|x86
-		{6B3135DE-3B29-4871-BFC4-86B954090117}.Debug|x86.Build.0 = Debug|x86
-		{6B3135DE-3B29-4871-BFC4-86B954090117}.Release|x86.ActiveCfg = Release|x86
-		{6B3135DE-3B29-4871-BFC4-86B954090117}.Release|x86.Build.0 = Release|x86
-		{FAA185EE-AB4C-4B72-AD04-AB2DE24B068B}.Debug|x86.ActiveCfg = Debug|x86
-		{FAA185EE-AB4C-4B72-AD04-AB2DE24B068B}.Debug|x86.Build.0 = Debug|x86
-		{FAA185EE-AB4C-4B72-AD04-AB2DE24B068B}.Release|x86.ActiveCfg = Release|x86
-		{FAA185EE-AB4C-4B72-AD04-AB2DE24B068B}.Release|x86.Build.0 = Release|x86
-		{903841EB-C45F-4A03-BADF-98FEF286D331}.Debug|x86.ActiveCfg = Debug|x86
-		{903841EB-C45F-4A03-BADF-98FEF286D331}.Debug|x86.Build.0 = Debug|x86
-		{903841EB-C45F-4A03-BADF-98FEF286D331}.Release|x86.ActiveCfg = Release|x86
-		{903841EB-C45F-4A03-BADF-98FEF286D331}.Release|x86.Build.0 = Release|x86
 		{B52D7C1D-4CC1-4DA0-B872-86B7404F527F}.Debug|x86.ActiveCfg = Debug|x86
 		{B52D7C1D-4CC1-4DA0-B872-86B7404F527F}.Debug|x86.Build.0 = Debug|x86
 		{B52D7C1D-4CC1-4DA0-B872-86B7404F527F}.Release|x86.ActiveCfg = Release|x86
