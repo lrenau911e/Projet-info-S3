@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projet-info_S3", "..\..\visual studio 2010\Projects\Projet-info_S3\Projet-info_S3\Projet-info_S3.csproj", "{B52D7C1D-4CC1-4DA0-B872-86B7404F527F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B52D7C1D-4CC1-4DA0-B872-86B7404F527F}.Debug|x86.ActiveCfg = Debug|x86
+		{B52D7C1D-4CC1-4DA0-B872-86B7404F527F}.Debug|x86.Build.0 = Debug|x86
+		{B52D7C1D-4CC1-4DA0-B872-86B7404F527F}.Release|x86.ActiveCfg = Release|x86
+		{B52D7C1D-4CC1-4DA0-B872-86B7404F527F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
