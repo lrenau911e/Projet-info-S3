@@ -27,6 +27,7 @@ namespace Projet_info_S3
 
         private void textBox_Resultat_TextChanged(object sender, EventArgs e)
         {
+            // Faire une méthode
             int saisie = Convert.ToInt32(textBox_Resultat.Text);
             // gestion du résultat
            string message = "";
@@ -37,6 +38,7 @@ namespace Projet_info_S3
                 message = result.ToString();
 
             //Affichage du résultat
+            // TODO: mettre un timer de quelques secondes
             MessageBox.Show(message, "");
         }
 

@@ -81,6 +81,7 @@
             this.label_Titre.Size = new System.Drawing.Size(45, 13);
             this.label_Titre.TabIndex = 6;
             this.label_Titre.Text = "Addition";
+            this.label_Titre.Click += new System.EventHandler(this.label_Titre_Click);
             // 
             // label_Operande1
             // 
@@ -112,7 +113,6 @@
             this.Controls.Add(this.textBox_Resultat);
             this.Name = "Form_Addition";
             this.Text = "Form_Addition";
-            this.Load += new System.EventHandler(this.Form_Addition_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
