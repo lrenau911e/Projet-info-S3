@@ -55,7 +55,6 @@
             this.menu.Size = new System.Drawing.Size(76, 13);
             this.menu.TabIndex = 0;
             this.menu.Text = "Menu principal";
-            //this.menu.Click += new System.EventHandler(this.menu_Click);
             // 
             // label1
             // 
@@ -236,6 +235,7 @@
             this.Controls.Add(this.menu);
             this.Name = "Form_Menu_principal";
             this.Text = "Niveau 1";
+            this.Load += new System.EventHandler(this.Form_Menu_principal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

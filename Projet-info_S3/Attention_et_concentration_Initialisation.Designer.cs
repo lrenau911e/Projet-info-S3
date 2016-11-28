@@ -1,6 +1,6 @@
 ﻿namespace Projet_info_S3
 {
-    partial class Attention_et_Concentration
+    partial class Attention_et_Concentration_Initialisation
     {
         /// <summary>
         /// Required designer variable.
@@ -73,7 +73,7 @@
             this.Btn_Demo.Text = "Démonstration";
             this.Btn_Demo.UseVisualStyleBackColor = true;
             // 
-            // Attention_et_Concentration
+            // Attention_et_Concentration_Initialisation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -82,7 +82,7 @@
             this.Controls.Add(this.Btn_Start);
             this.Controls.Add(this.TexBox_Instruction);
             this.Controls.Add(this.Btn_Menu);
-            this.Name = "Attention_et_Concentration";
+            this.Name = "Attention_et_Concentration_Initialisation";
             this.Text = "Attention_et_Concentration";
             this.ResumeLayout(false);
             this.PerformLayout();
