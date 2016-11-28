@@ -78,11 +78,11 @@
     <Compile Include="AC_ecran5.Designer.cs">
       <DependentUpon>AC_ecran5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Attention_et_concentration.cs">
+    <Compile Include="Attention_et_concentration_Initialisation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Attention_et_concentration.Designer.cs">
-      <DependentUpon>Attention_et_concentration.cs</DependentUpon>
+    <Compile Include="Attention_et_concentration_Initialisation.Designer.cs">
+      <DependentUpon>Attention_et_concentration_Initialisation.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Addition.cs">
       <SubType>Form</SubType>
@@ -155,8 +155,8 @@
     <EmbeddedResource Include="AC_ecran5.resx">
       <DependentUpon>AC_ecran5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Attention_et_concentration.resx">
-      <DependentUpon>Attention_et_concentration.cs</DependentUpon>
+    <EmbeddedResource Include="Attention_et_concentration_Initialisation.resx">
+      <DependentUpon>Attention_et_concentration_Initialisation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Addition.resx">
       <DependentUpon>Form_Addition.cs</DependentUpon>

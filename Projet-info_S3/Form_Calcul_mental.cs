@@ -16,9 +16,33 @@ namespace Projet_info_S3
             InitializeComponent();
         }
 
-        private void button_Addiction_Click(object sender, EventArgs e)
+        private void button_Addition_Click(object sender, EventArgs e)
         {
+            Form_Addition Addition = new Form_Addition();
+            Addition.ShowDialog();
+        }
 
+        private void button_Soustraction_Click(object sender, EventArgs e)
+        {
+            Form_Soustraction Soustraction = new Form_Soustraction();
+            Soustraction.ShowDialog();
+        }
+
+        private void button_Multiplication_Click(object sender, EventArgs e)
+        {
+            Form_Multiplication Multiplication = new Form_Multiplication();
+            Multiplication.ShowDialog();
+        }
+
+        private void button_Division_Click(object sender, EventArgs e)
+        {
+            Form_Division Division = new Form_Division();
+            Division.ShowDialog();
+        }
+
+        private void button_Menu_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

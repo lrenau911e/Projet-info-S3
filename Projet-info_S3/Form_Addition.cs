@@ -22,14 +22,18 @@ namespace Projet_info_S3
         private void textBox_Resultat_TextChanged(object sender, EventArgs e)
         {
             if (textBox_Resultat.Text != "")
-                button1.Enabled = true;
+            {
+                buttonCommencer.Enabled = true;
+            }
             else
-                button1.Enabled = false;
+            {
+                buttonCommencer.Enabled = false;
+            }
+
         }
 
         private void Somme()
         {
-
             if (textBox_Resultat.Text != "")
             // Faire une méthode
             { 
@@ -39,14 +43,14 @@ namespace Projet_info_S3
                 int result = Convert.ToInt32(label_Operande1.Text) + Convert.ToInt32(label_Operande2.Text);
                 if (saisie == result)
                 {
-                    message = "Ok";
+                    message = "Ok vous avez entré le bon résultat";
                     Succes++;
                 }
                 else
-                    message = result.ToString();
+                    message = "Faux, le résultat est : "+result.ToString();
                 //Affichage du résultat
                 // TODO: mettre un timer de quelques secondes
-                MessageBox.Show(message, "");
+                MessageBox.Show(message, "Solution");
             }
         }
 
@@ -54,23 +58,24 @@ namespace Projet_info_S3
         {
             // Préparation du formulaire: création des opérandes
             Random rdm = new Random();
-            int Nombre = rdm.Next(10, 99);
+            int Nombre = rdm.Next(100, 999);
             label_Operande1.Text = Nombre.ToString();
-            Nombre = rdm.Next(10, 99);
+            Nombre = rdm.Next(100, 999);
             label_Operande2.Text = Nombre.ToString();
         }
 
         private void button_Test_Click(object sender, EventArgs e)
         {
-            button1.Enabled = false;
+            buttonCommencer.Enabled = false;
+            textBox_Resultat.Enabled = true;
             Somme();
             AfficheNombre();
             NombreAddition++;
-            button1.Text = "Addition Suivante : " + NombreAddition.ToString() + "/10";
+            buttonCommencer.Text = "Addition Suivante : " + NombreAddition.ToString() + "/10";
             textBox_Resultat.Text = "";
             if (NombreAddition == 11)
             {
-                button1.Text = "Résultat";
+                buttonCommencer.Text = "Résultat";
                 AfficheResultat();
                 NombreAddition++;
             }
@@ -85,6 +90,7 @@ namespace Projet_info_S3
             string score = "Voici votre résultat: \n" + Succes + " %";
             MessageBox.Show(score, "Score");
         }
+
     }
     }
 

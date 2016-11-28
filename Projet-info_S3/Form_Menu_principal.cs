@@ -36,7 +36,7 @@ namespace Projet_info_S3
         {
             //this.Hide();
             Btn1_AC.Enabled = false;
-            Attention_et_Concentration_Initialisation Exo_Attention1 = new Attention_et_Concentration();
+            Attention_et_Concentration Exo_Attention1 = new Attention_et_Concentration();
             Exo_Attention1.ShowDialog();
         }
 
