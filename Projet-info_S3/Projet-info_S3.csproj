@@ -164,6 +164,9 @@
     <EmbeddedResource Include="Form_Division.resx">
       <DependentUpon>Form_Division.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Menu_principal.resx">
+      <DependentUpon>Form_Menu_principal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Multiplication.resx">
       <DependentUpon>Form_Multiplication.cs</DependentUpon>
     </EmbeddedResource>
