@@ -36,7 +36,7 @@ namespace Projet_info_S3
         {
             //this.Hide();
             Btn1_AC.Enabled = false;
-            Attention_et_Concentration Exo_Attention1 = new Attention_et_Concentration();
+            Attention_et_Concentration_Initialisation Exo_Attention1 = new Attention_et_Concentration_Initialisation();
             Exo_Attention1.ShowDialog();
         }
 
@@ -44,7 +44,7 @@ namespace Projet_info_S3
         {
             //this.Hide();
             Btn2_AC.Enabled = false;
-            Attention_et_Concentration Exo_Attention2 = new Attention_et_Concentration();
+            Attention_et_Concentration_Initialisation Exo_Attention2 = new Attention_et_Concentration_Initialisation();
             Exo_Attention2.ShowDialog();
         }
 
@@ -94,6 +94,11 @@ namespace Projet_info_S3
             Btn2_PP.Enabled = false;
             Problemes_Physiques Exo_ProbPhys2 = new Problemes_Physiques();
             Exo_ProbPhys2.ShowDialog();
+        }
+
+        private void Form_Menu_principal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
