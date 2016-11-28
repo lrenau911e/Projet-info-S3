@@ -84,7 +84,7 @@
             this.Controls.Add(this.BtnRule2);
             this.Controls.Add(this.BtnRule1);
             this.Name = "AC_ecran5";
-            this.Text = "AC_ecran5";
+            this.Text = "                                   ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
