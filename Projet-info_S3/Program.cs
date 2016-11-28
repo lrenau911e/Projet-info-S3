@@ -15,7 +15,8 @@ namespace Projet_info_S3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Menu_principal());
+            Form_Menu_principal LeMenu = new Form_Menu_principal();
+            Application.Run(LeMenu);
             //Application.Run(new Form_Addition());
 
         }
