@@ -155,6 +155,9 @@
     <EmbeddedResource Include="AC_ecran5.resx">
       <DependentUpon>AC_ecran5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Attention_et_concentration.resx">
+      <DependentUpon>Attention_et_concentration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Addition.resx">
       <DependentUpon>Form_Addition.cs</DependentUpon>
     </EmbeddedResource>
@@ -172,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Soustraction.resx">
       <DependentUpon>Form_Soustraction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Problemes_Physiques.resx">
+      <DependentUpon>Problemes_Physiques.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

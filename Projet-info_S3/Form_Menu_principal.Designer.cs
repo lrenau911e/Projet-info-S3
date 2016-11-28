@@ -55,6 +55,7 @@
             this.menu.Size = new System.Drawing.Size(76, 13);
             this.menu.TabIndex = 0;
             this.menu.Text = "Menu principal";
+            //this.menu.Click += new System.EventHandler(this.menu_Click);
             // 
             // label1
             // 

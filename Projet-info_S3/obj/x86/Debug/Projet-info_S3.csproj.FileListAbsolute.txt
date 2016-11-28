@@ -49,3 +49,5 @@ H:\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet_info_S3.Form_Multiplicatio
 H:\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet_info_S3.Form_Soustraction.resources
 H:\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet_info_S3.Properties.Resources.resources
 H:\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet-info_S3.csproj.GenerateResource.Cache
+H:\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet_info_S3.Attention_et_Concentration.resources
+H:\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet_info_S3.Problemes_Physiques.resources

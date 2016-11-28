@@ -15,5 +15,11 @@ namespace Projet_info_S3
         {
             InitializeComponent();
         }
+
+        private void Retour_menu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Btn_Menu.Enabled = false;
+        }
     }
 }
