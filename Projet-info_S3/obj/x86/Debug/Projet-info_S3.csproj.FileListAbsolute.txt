@@ -31,3 +31,4 @@ C:\Users\paulo\Downloads\Projet-info-S3-master\Projet-info-S3-master\Projet-info
 C:\Users\paulo\Downloads\Projet-info-S3-master\Projet-info-S3-master\Projet-info_S3\bin\Debug\Projet-info_S3.exe
 C:\Users\paulo\Downloads\Projet-info-S3-master\Projet-info-S3-master\Projet-info_S3\bin\Debug\Projet-info_S3.pdb
 C:\Users\paulo\Downloads\Projet-info-S3-master\Projet-info-S3-master\Projet-info_S3\obj\x86\Debug\Projet-info_S3.csprojResolveAssemblyReference.cache
+C:\Users\mbonnets\Documents\GitHub\Projet-info_S3\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet-info_S3.csprojResolveAssemblyReference.cache

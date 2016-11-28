@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button_Addiction = new System.Windows.Forms.Button();
+            this.button_Addition = new System.Windows.Forms.Button();
             this.button_Soustraction = new System.Windows.Forms.Button();
             this.button_Multiplication = new System.Windows.Forms.Button();
             this.button_Division = new System.Windows.Forms.Button();
@@ -36,15 +36,15 @@
             this.textBoxInstructions = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button_Addiction
+            // button_Addition
             // 
-            this.button_Addiction.Location = new System.Drawing.Point(23, 12);
-            this.button_Addiction.Name = "button_Addiction";
-            this.button_Addiction.Size = new System.Drawing.Size(89, 23);
-            this.button_Addiction.TabIndex = 0;
-            this.button_Addiction.Text = "Addition";
-            this.button_Addiction.UseVisualStyleBackColor = true;
-            this.button_Addiction.Click += new System.EventHandler(this.button_Addiction_Click);
+            this.button_Addition.Location = new System.Drawing.Point(23, 12);
+            this.button_Addition.Name = "button_Addition";
+            this.button_Addition.Size = new System.Drawing.Size(89, 23);
+            this.button_Addition.TabIndex = 0;
+            this.button_Addition.Text = "Addition";
+            this.button_Addition.UseVisualStyleBackColor = true;
+            this.button_Addition.Click += new System.EventHandler(this.button_Addition_Click);
             // 
             // button_Soustraction
             // 
@@ -54,6 +54,7 @@
             this.button_Soustraction.TabIndex = 1;
             this.button_Soustraction.Text = "Soustraction";
             this.button_Soustraction.UseVisualStyleBackColor = true;
+            this.button_Soustraction.Click += new System.EventHandler(this.button_Soustraction_Click);
             // 
             // button_Multiplication
             // 
@@ -63,6 +64,7 @@
             this.button_Multiplication.TabIndex = 2;
             this.button_Multiplication.Text = "Multiplication";
             this.button_Multiplication.UseVisualStyleBackColor = true;
+            this.button_Multiplication.Click += new System.EventHandler(this.button_Multiplication_Click);
             // 
             // button_Division
             // 
@@ -72,6 +74,7 @@
             this.button_Division.TabIndex = 3;
             this.button_Division.Text = "Division";
             this.button_Division.UseVisualStyleBackColor = true;
+            this.button_Division.Click += new System.EventHandler(this.button_Division_Click);
             // 
             // button_Menu
             // 
@@ -81,6 +84,7 @@
             this.button_Menu.TabIndex = 4;
             this.button_Menu.Text = "Menu principal";
             this.button_Menu.UseVisualStyleBackColor = true;
+            this.button_Menu.Click += new System.EventHandler(this.button_Menu_Click);
             // 
             // textBoxInstructions
             // 
@@ -100,7 +104,7 @@
             this.Controls.Add(this.button_Division);
             this.Controls.Add(this.button_Multiplication);
             this.Controls.Add(this.button_Soustraction);
-            this.Controls.Add(this.button_Addiction);
+            this.Controls.Add(this.button_Addition);
             this.Name = "Form_Calcul_mental";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -110,7 +114,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button_Addiction;
+        private System.Windows.Forms.Button button_Addition;
         private System.Windows.Forms.Button button_Soustraction;
         private System.Windows.Forms.Button button_Multiplication;
         private System.Windows.Forms.Button button_Division;
