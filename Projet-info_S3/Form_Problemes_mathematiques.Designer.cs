@@ -45,7 +45,7 @@
             this.buttonCommencer.TabIndex = 0;
             this.buttonCommencer.Text = "Commencer le test";
             this.buttonCommencer.UseVisualStyleBackColor = true;
-            this.buttonCommencer.Click += new System.EventHandler(this.button1_Click);
+            this.buttonCommencer.Click += new System.EventHandler(this.buttonCommencer_Click);
             // 
             // textBox_Instruction
             // 
@@ -79,6 +79,7 @@
             this.checkBox_Rep3.Text = "checkBox2";
             this.checkBox_Rep3.UseVisualStyleBackColor = true;
             this.checkBox_Rep3.Visible = false;
+            this.checkBox_Rep3.CheckedChanged += new System.EventHandler(this.checkBox_Rep3_CheckedChanged);
             // 
             // checkBox_Rep2
             // 
@@ -90,6 +91,7 @@
             this.checkBox_Rep2.Text = "checkBox3";
             this.checkBox_Rep2.UseVisualStyleBackColor = true;
             this.checkBox_Rep2.Visible = false;
+            this.checkBox_Rep2.CheckedChanged += new System.EventHandler(this.checkBox_Rep2_CheckedChanged);
             // 
             // checkBox_Rep4
             // 
@@ -101,6 +103,7 @@
             this.checkBox_Rep4.Text = "checkBox4";
             this.checkBox_Rep4.UseVisualStyleBackColor = true;
             this.checkBox_Rep4.Visible = false;
+            this.checkBox_Rep4.CheckedChanged += new System.EventHandler(this.checkBox_Rep4_CheckedChanged);
             // 
             // Form_Problemes_mathematiques
             // 

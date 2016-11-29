@@ -26,8 +26,17 @@ namespace Projet_info_S3
             MessageBox.Show(score, "Score");
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ObligationDeResultat()
+    {
+       if (checkBox_Rep1.Checked == true || checkBox_Rep2.Checked == true || checkBox_Rep3.Checked == true || checkBox_Rep4.Checked == true)
+                   buttonCommencer.Enabled = true;
+            else
+                buttonCommencer.Enabled = false;
+    }
+
+        private void buttonCommencer_Click(object sender, EventArgs e)
         {
+            buttonCommencer.Enabled = false;
             textBox_Instruction.Text = ""; //TODO: relier à la base de donnée
             buttonCommencer.Text = "Problème Suivant : " + NombrePb.ToString() + "/10";
             checkBox_Rep1.Visible = true;
@@ -39,33 +48,17 @@ namespace Projet_info_S3
             checkBox_Rep4.Visible = true;
             checkBox_Rep4.Text = "";//TODO: relier à la base de donnée
 
-            /*if (checkBox_Rep1.Checked == true)
-            {
-                checkBox_Rep2.Enabled = false;
-                checkBox_Rep3.Enabled = false;
-                checkBox_Rep4.Enabled = false;
-            }
+            checkBox_Rep1.Checked = false;
+            checkBox_Rep2.Checked = false;
+            checkBox_Rep3.Checked = false;
+            checkBox_Rep4.Checked = false;
 
-            if (checkBox_Rep2.Checked == true)
-            {
-                checkBox_Rep1.Enabled = false;
-                checkBox_Rep3.Enabled = false;
-                checkBox_Rep4.Enabled = false;
-            }
+            checkBox_Rep1.Enabled = true;
+            checkBox_Rep2.Enabled = true;
+            checkBox_Rep3.Enabled = true;
+            checkBox_Rep4.Enabled = true;
 
-            if (checkBox_Rep3.Checked == true)
-            {
-                checkBox_Rep1.Enabled = false;
-                checkBox_Rep2.Enabled = false;
-                checkBox_Rep4.Enabled = false;
-            }
-
-            if (checkBox_Rep4.Checked == true)
-            {
-                checkBox_Rep1.Enabled = false;
-                checkBox_Rep2.Enabled = false;
-                checkBox_Rep3.Enabled = false;
-            }*/
+            //TODO: Vérification du résultat
 
             NombrePb++;
             if (NombrePb == 11)
@@ -76,6 +69,38 @@ namespace Projet_info_S3
             }
             if (NombrePb == 12)
                 this.Close();
+        }
+
+        private void checkBox_Rep1_CheckedChanged(object sender, EventArgs e)
+        {
+            checkBox_Rep2.Enabled = false;
+            checkBox_Rep3.Enabled = false;
+            checkBox_Rep4.Enabled = false;
+            ObligationDeResultat();
+        }
+
+        private void checkBox_Rep3_CheckedChanged(object sender, EventArgs e)
+        {
+            checkBox_Rep1.Enabled = false;
+            checkBox_Rep2.Enabled = false;
+            checkBox_Rep4.Enabled = false;
+            ObligationDeResultat();
+        }
+
+        private void checkBox_Rep2_CheckedChanged(object sender, EventArgs e)
+        {
+            checkBox_Rep1.Enabled = false;
+            checkBox_Rep3.Enabled = false;
+            checkBox_Rep4.Enabled = false;
+            ObligationDeResultat();
+        }
+
+        private void checkBox_Rep4_CheckedChanged(object sender, EventArgs e)
+        {
+            checkBox_Rep1.Enabled = false;
+            checkBox_Rep2.Enabled = false;
+            checkBox_Rep3.Enabled = false;
+            ObligationDeResultat();
         }
     }
 }
