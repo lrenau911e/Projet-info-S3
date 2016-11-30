@@ -56,3 +56,4 @@ C:\Users\mbonnets\Documents\GitHub\Projet-info_S3\Projet-info-S3\Projet-info_S3\
 C:\Users\mbonnets\Documents\GitHub\Projet-info_S3\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet_info_S3.Form_Problemes_mathematiques.resources
 C:\Users\mbonnets\Documents\GitHub\Projet-info_S3\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet_info_S3.Problemes_Physiques.resources
 C:\Users\mbonnets\Documents\GitHub\Projet-info_S3\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet_info_S3.Attention_et_Concentration_Initialisation.resources
+C:\Users\mbonnets\Documents\GitHub\Projet-info_S3\Projet-info-S3\Projet-info_S3\obj\x86\Debug\Projet_info_S3.Form_Perception_et_memoire_associative.resources

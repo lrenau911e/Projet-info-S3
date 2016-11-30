@@ -173,6 +173,9 @@
     <EmbeddedResource Include="Form_Multiplication.resx">
       <DependentUpon>Form_Multiplication.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Perception_et_memoire_associative.resx">
+      <DependentUpon>Form_Perception_et_memoire_associative.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Problemes_mathematiques.resx">
       <DependentUpon>Form_Problemes_mathematiques.cs</DependentUpon>
     </EmbeddedResource>
