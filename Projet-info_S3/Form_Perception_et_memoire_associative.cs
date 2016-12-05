@@ -69,6 +69,8 @@ namespace Projet_info_S3
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
+            if (textBox_Rep1.Text == "")
+                Succes++;
             label_Rep2.Visible = true;
             label_Rep2.Text = "";//TODO: relier à la base de donnée
             label_ope2.Visible = true;
@@ -77,6 +79,8 @@ namespace Projet_info_S3
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            if (textBox_Rep2.Text == "")
+                Succes++;
             label_Rep3.Visible = true;
             label_Rep3.Text = "";//TODO: relier à la base de donnée
             label_ope3.Visible = true;
@@ -85,6 +89,8 @@ namespace Projet_info_S3
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+            if (textBox_Rep3.Text == "")
+                Succes++;
             buttonCommencer.Enabled = true;
         }
 
